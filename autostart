@@ -6,28 +6,17 @@ setxkbmap fr &
 numlockx on &
 pactl set-sink-volume 0 '41%' &
 compton --config $HOME/.config/i3/compton.conf &
-#parcellite &
-#wicd-client &
 nm-applet &
 solaar &
 
 sh $HOME/.config/i3/arandr.sh &
-#sh $HOME/.config/polybar/launch.sh &
 
-#feh --bg-fill $HOME/Documents/wallpaper/horse.jpg $HOME/Documents/wallpaper/horse.jpg &
-#feh --bg-scale $HOME/Documents/wallpaper/futur8.jpg $HOME/Documents/wallpaper/futur8.jpg &
-feh --bg-fill $HOME/.config/i3/wallpaper/orange_black.png $HOME/.config/i3/wallpaper/orange_black.png &
-#nitrogen --restore
+feh --bg-fill $HOME/.config/i3/wallpaper/arch.png $HOME/.config/i3/wallpaper/arch.png &
 
 megasync &
 mpd /etc/mpd.conf &
-#guake &
 tilda &
 clipmenud &
-
-#xautolock -detectsleep -time 5 -locker "~/.local/bin/lockscreen off" -nowlocker "~/.local/bin/lockscreen" &
-#xautolock -detectsleep -time 10 -locker "~/.local/bin/lockscreen off" -locker "systemctl suspend" -nowlocker "~/.local/bin/lockscreen" &
-#xautolock -detectsleep -time 30 -locker "$HOME/.local/bin/lockscreen off" -locker "systemctl hibernate" -nowlocker "$HOME/.local/bin/lockscreen" &
 
 # Touchpad
 synclient TapButton1=1
