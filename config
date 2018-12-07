@@ -27,10 +27,10 @@ hide_edge_borders none #smart both
 floating_modifier $mod
 
 # start a terminal
-#bindsym $mod+Return exec lxterminal
-bindsym $mod+Return exec urxvt
-bindsym $mod+Shift+Return exec lxterminal
-#bindsym $mod+Shift+Return exec urxvt
+bindsym $mod+Return exec lxterminal
+#bindsym $mod+Return exec urxvt
+#bindsym $mod+Shift+Return exec lxterminal
+bindsym $mod+Shift+Return exec urxvt
 
 bindsym $mod+b exec --no-startup-id $HOME/.config/polybar/scripts/toggle.sh
 bindsym $mod+y border 1pixel
