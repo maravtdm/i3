@@ -1,0 +1,3 @@
+#!/bin/bash
+trash=$(ls /home/david/.local/share/Trash/files/ | wc -l)
+echo $trash
