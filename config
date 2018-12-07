@@ -172,6 +172,8 @@ for_window [class="Thunderbird" instance="Calendar" window_role="EventDialog"]		
 #for_window [class="Thunderbird" instance="Calendar"]							floating enable
 for_window [class="Firefox" title="Saisie des CRA - MyAtos Portal - Mozilla Firefox" window_role="browser"] floating enable
 
+for_window [class="\w*"] border pixel 1
+
 # Cycle through active workspaces
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
