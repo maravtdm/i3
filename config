@@ -20,7 +20,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # clear in small sizes. However, its unicode glyph coverage is limited, the old
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
-new_window pixel 2
+new_window pixel 1
 hide_edge_borders none #smart both
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -360,4 +360,3 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10
 exec --no-startup-id $HOME/.config/i3/autostart
 #exec-always --no-startup-id xautolock -time 15 -locker "systemctl hibernate"
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id border 1pixel
