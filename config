@@ -124,8 +124,8 @@ workspace $WS6 output primary
 workspace $WS7 output primary
 workspace $WS8 output primary
 workspace $WS9 output primary
-workspace $WS10 output primary
-#workspace $WS10 output eDP1
+#workspace $WS10 output primary
+workspace $WS10 output eDP1
 
 # move focused container to workspace
 bindsym $mod+Shift+ampersand move container to workspace $WS1
