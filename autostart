@@ -11,7 +11,7 @@ solaar &
 
 sh $HOME/.config/i3/arandr.sh &
 
-feh --bg-fill $HOME/.config/i3/wallpaper/arch.png $HOME/.config/i3/wallpaper/arch.png &
+feh --bg-fill $HOME/.config/i3/wallpaper/arch.png $HOME/.config/i3/wallpaper/archlinux-simplyblack.png &
 #feh --bg-fill $HOME/.config/i3/wallpaper/arch_linux_wall.jpg $HOME/.config/i3/wallpaper/arch_linux_wall.jpg &
 
 megasync &
