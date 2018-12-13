@@ -37,7 +37,7 @@ bindsym $mod+y border 1pixel
 
 # kill focused window
 bindsym $mod+Shift+q kill
-bindsym $mod+l exec --no-startup-id ~/.local/bin/lockscreen off
+bindsym $mod+l exec --no-startup-id $HOME/.config/i3/lockscreen off
 
 # compton
 bindsym $mod+c exec --no-startup-id compton -S --config $HOME/.config/i3/compton.conf
