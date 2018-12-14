@@ -181,6 +181,8 @@ bindsym $mod+Shift+Tab workspace prev
 # move WS to primary
 bindsym $mod+m exec --no-startup-id $HOME/.config/i3/send2primary.sh
 
+bindsym $mod+Shift+n exec --no-startup-id $HOME/bin/script_dgfip
+
 # Assign Workspaces:
 assign [class="^Firefox$"] $WS2
 assign [class="Nightly"] $WS2
